@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-left: 4rem;
+}
+
+header nav ul :first-child {
+    margin-left: 0;
+}
+
+header nav div {
+    display: flex;
+    width: 8.0rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+}
