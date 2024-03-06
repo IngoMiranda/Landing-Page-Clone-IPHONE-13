@@ -153,10 +153,13 @@ section ul {
 
 section ul li {
     display: flex;
-    width: 3.2rem;
-    height: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     margin-left: 1rem;
     cursor: pointer;
+    border-radius: 40px;
 }
 
 section ul li:first-child {
