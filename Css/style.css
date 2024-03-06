@@ -79,19 +79,90 @@ section .parcelas img {
 }
 
 section .hero02 {
+    position: relative;
     display: flex;
     width: 100%;
-    height: 105rem;
+    height: 163.4rem;
     margin-top: 6rem;
 }
 
 section .carrossel {
+    position: sticky;
+    top: 10rem;
     width: 118rem;
     height: 75.6rem;
     border-radius: 1.5rem;
     background-color: var(--color-blackground02);
+    margin-right: 7.5rem;
 }
 
 section .carrossel img {
     border-radius: 4rem;
+}
+
+section .color-valor {
+    display: flex;
+    max-height: 148rem;
+    flex-direction: column;
+    width: 41rem;
+}
+
+section .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    margin-top: 33.3rem;
+    margin-bottom: 27.3rem;
+    gap: 20px;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 2.4rem;
+}
+
+section h2 span {
+    display: block;
+    font-size: 2.4rem;
+    color: var(--color-paragraphy02);
+}
+
+section .cor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+section .cor p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0.6rem;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 1.5rem 0;
+}
+
+section ul li {
+    display: flex;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+section ul li:first-child {
+    margin-left: 0;
+}
+
+section ul li:hover {
+    border: 2px solid red;
 }
