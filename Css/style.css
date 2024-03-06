@@ -3,11 +3,20 @@ header {
     width: 100%;
 }
 
+header .container-grid {
+    display: flex;
+    justify-content: center;
+}
+
 header nav {
     display: flex;
-    width: 100%;
-    align-items: center;
+    width: 99.6rem;
+    align-items: start;
     justify-content: space-around;
+}
+
+header nav a img {
+    max-width: 20px;
 }
 
 header nav ul {
@@ -19,6 +28,7 @@ header nav ul {
 
 header nav ul li {
     margin-left: 4rem;
+    cursor: pointer;
 }
 
 header nav ul :first-child {
@@ -31,4 +41,57 @@ header nav div {
     align-items: center;
     justify-content: center;
     gap: 1rem
+}
+
+header nav div img {
+    max-width: 1.3rem;
+    margin-left: 1rem;
+}
+
+section {
+    width: 100%;
+    margin-top: 2.4rem;
+}
+
+section .container-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .title p {
+    margin-top: .5rem;
+}
+
+section .parcelas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 262px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    background-color: var(--color-blackground02);
+}
+
+section .parcelas img {
+    max-width: 1.3rem;
+}
+
+section .hero02 {
+    display: flex;
+    width: 100%;
+    height: 105rem;
+    margin-top: 6rem;
+}
+
+section .carrossel {
+    width: 118rem;
+    height: 75.6rem;
+    border-radius: 1.5rem;
+    background-color: var(--color-blackground02);
+}
+
+section .carrossel img {
+    border-radius: 4rem;
 }
